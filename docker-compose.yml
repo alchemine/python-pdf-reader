@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  compute:
+    build:
+      context: .
+    hostname: "dev"
+    ports:
+      - 10022:22   # SSH
+      - 8501:8501  # streamlit
+      - 8888:8888  # jupyter
+    volumes:
+      - .:/project
+      - /data:/data
+    restart: always
+    ipc: host
+    tty: true
+    privileged: true
