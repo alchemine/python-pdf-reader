@@ -7,7 +7,7 @@ echo "# ------------------------------------------------------------------------
 
 
 ROOT_DIR="$(pwd)"
-DATA_ROOT_DIR="${ROOT_DIR}/data"
+DATA_ROOT_DIR="${ROOT_DIR}/data/tabular_pdf"
 DOC_BASE_URL="https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2018"
 DATASET_BASE_URL="https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2018"
 
